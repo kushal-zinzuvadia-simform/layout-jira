@@ -15,6 +15,11 @@
 
 [ Add screenshots here ]
 
+# Validations
+
+[ Add validation reports and lighthouse score report here ]
+
+<!--
 # Technical Context
 
 [ Add technical context here ]
@@ -23,6 +28,7 @@
 
 [ Add any dependencies that may be required ]
 
+-->
 # How to test
 
 [ Add steps of how to test ]
