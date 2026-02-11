@@ -7,7 +7,7 @@
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Documentation update
-- [ ] Refractoring
+- [ ] Refactoring
 - [ ] Performance improvement
 - [ ] Scaffolding
 
