@@ -30,6 +30,8 @@
 .nav-item {
   padding: 10px;
   cursor: pointer;
+  display: flex;
+  gap: 4px;
 }
 
 .create-button {
@@ -69,9 +71,4 @@
   justify-content: center;
   align-items: center;
   padding-right: 10px;
-}
-
-.arrow-icon {
-  margin-left: -20px;
-  cursor: pointer;
 }
