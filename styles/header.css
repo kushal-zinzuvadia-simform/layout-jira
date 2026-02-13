@@ -1,0 +1,77 @@
+.header-left,
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.action-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.create-button {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 9px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding-left: 30px; /* Add padding to the left for the search icon */
+}
+
+.search-icon {
+  position: relative;
+  left: 27px; /* Adjust the position of the search icon */
+  width: 15px;
+  height: 15px;
+}
+
+.icons-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.arrow-icon {
+  margin-left: -20px;
+  cursor: pointer;
+}
