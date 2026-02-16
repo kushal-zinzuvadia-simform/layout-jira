@@ -27,11 +27,17 @@
   gap: 10px;
 }
 
-.nav-item {
+.nav-link {
   padding: 10px;
-  cursor: pointer;
   display: flex;
   gap: 4px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
 }
 
 .create-button {
