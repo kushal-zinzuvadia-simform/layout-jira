@@ -17,6 +17,19 @@
 
 .logo {
   padding-left: 20px;
+  cursor: pointer;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.tools{
+  cursor: pointer;
+}
+
+.project-title{
+  cursor: pointer;
 }
 
 .action-bar ul {
