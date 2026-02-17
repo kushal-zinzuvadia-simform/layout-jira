@@ -1,176 +1,126 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A single-page skeleton UI clone of Jira’s project page, designed to replicate the core layout and structure for learning and frontend practice.">
-    <meta
-      name="keywords"
-      content="Jira UI Clone, Frontend Practice, HTML CSS Project, Skeleton Layout">
-    <meta name="author" content="Kushal Zinzuvadia">
 
-    <!-- Open Graph -->
-    <meta property="og:url" content="https://jira-layout.netlify.app/">
-    <meta property="og:type" content="website">
-    <meta
-      property="og:title"
-      content="Jira Project Page Skeleton UI Clone | Frontend Practice"
-    >
-    <meta
-      property="og:description"
-      content="A single-page skeleton UI clone of Jira’s project page built using HTML and CSS for frontend layout practice."
-    >
-    <meta property="og:image" content="/assets/images/cover_jira.png">
-    <meta property="og:site_name" content="Jira UI Clone by Kushal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="A single-page skeleton UI clone of Jira’s project page, designed to replicate the core layout and structure for learning and frontend practice.">
+  <meta name="keywords" content="Jira UI Clone, Frontend Practice, HTML CSS Project, Skeleton Layout">
+  <meta name="author" content="Kushal Zinzuvadia">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Jira Project Page Skeleton UI Clone">
-    <meta
-      name="twitter:description"
-      content="Frontend practice project replicating Jira’s project page layout using HTML and CSS."
-    >
-    <meta name="twitter:image" content="/assets/images/cover_jira.png">
+  <!-- Open Graph -->
+  <meta property="og:url" content="https://jira-layout.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jira Project Page Skeleton UI Clone | Frontend Practice">
+  <meta property="og:description"
+    content="A single-page skeleton UI clone of Jira’s project page built using HTML and CSS for frontend layout practice.">
+  <meta property="og:image" content="/assets/images/cover_jira.png">
+  <meta property="og:site_name" content="Jira UI Clone by Kushal">
 
-    <link rel="icon" href="/assets/icons/jira.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/header.css">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jira Project Page Skeleton UI Clone">
+  <meta name="twitter:description"
+    content="Frontend practice project replicating Jira’s project page layout using HTML and CSS.">
+  <meta name="twitter:image" content="/assets/images/cover_jira.png">
 
-    <title>Jira Project Page Skeleton UI Clone</title>
-  </head>
+  <link rel="icon" href="/assets/icons/jira.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/header.css">
 
-  <body>
-    <header class="header">
-      <div class="header-left">
-        <!-- Branding -->
-        <div class="brand">
-          <img
-            src="/assets/icons/grid.svg"
-            alt="Open application menu"
-            title="Application menu"
-            class="tools"
-          >
-          <img
-            src="/assets/icons/jira.svg"
-            alt="Jira logo"
-            title="Jira Home"
-            class="logo"
-          >
-          <h1 class="project-title">Jira</h1>
-        </div>
+  <title>Jira Project Page Skeleton UI Clone</title>
+</head>
 
-        <!-- Navigation -->
-        <nav class="action-bar" aria-label="Primary navigation">
-          <ul class="nav-list">
-            <li>
-              <a href="#" class="nav-link" title="View your work">
-                Your work
-                <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
-              </a>
-            </li>
-        
-            <li>
-              <a href="#" class="nav-link" title="Browse projects">
-                Projects
-                <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
-              </a>
-            </li>
-        
-            <li>
-              <a href="#" class="nav-link" title="View filters">
-                Filter
-                <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
-              </a>
-            </li>
-        
-            <li>
-              <a href="#" class="nav-link" title="Access dashboards">
-                Dashboards
-                <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
-              </a>
-            </li>
-        
-            <li>
-              <a href="#" class="nav-link" title="View teams">
-                Teams
-                <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
-              </a>
-            </li>
-        
-            <li>
-              <a href="#" class="nav-link" title="View plans">
-                Plans
-                <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
-              </a>
-            </li>
-        
-            <li>
-              <a href="#" class="nav-link" title="Browse apps">
-                Apps
-                <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
-              </a>
-            </li>
-          </ul>
-        </nav>
-        
-        <!-- Create Button -->
-        <div class="action-btn">
-          <button class="create-button" aria-label="Create new issue" title="Create new issue" type="button">
-            Create
-          </button>
-        </div>
-        </div>
-
-      <!-- Right Section -->
-      <div class="header-right">
-        <!-- Search -->
-        <div class="search-bar" role="search">
-          <img
-            src="/assets/icons/Search.svg"
-            alt=""
-            aria-hidden="true"
-            class="search-icon"
-          >
-          <input
-            type="text"
-            placeholder="Search"
-            class="search-input"
-            aria-label="Search issues and projects"
-            title="Search"
-          >
-        </div>
-
-        <!-- Utility Icons -->
-        <div class="icons-container">
-          <img
-            src="/assets/icons/notification.svg"
-            alt="Notifications"
-            title="View notifications"
-            class="icon"
-          >
-
-          <img
-            src="/assets/icons/help.svg"
-            alt="Help"
-            title="Help and support"
-            class="icon"
-          >
-
-          <img
-            src="/assets/icons/Setting.svg"
-            alt="Settings"
-            title="Settings"
-            class="icon"
-          >
-
-          <img
-            src="/assets/icons/profile.svg"
-            alt="User profile"
-            title="View profile"
-            class="icon profile-icon"
-          >
-        </div>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <!-- Branding -->
+      <div class="brand">
+        <img src="/assets/icons/grid.svg" alt="Open application menu" title="Application menu" class="tools">
+        <img src="/assets/icons/jira.svg" alt="Jira logo" title="Jira Home" class="logo">
+        <h1 class="project-title">Jira</h1>
       </div>
-    </header>
-  </body>
+
+      <!-- Navigation -->
+      <nav class="action-bar" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="nav-link" title="View your work">
+              Your work
+              <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" title="Browse projects">
+              Projects
+              <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" title="View filters">
+              Filter
+              <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" title="Access dashboards">
+              Dashboards
+              <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" title="View teams">
+              Teams
+              <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" title="View plans">
+              Plans
+              <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="nav-link" title="Browse apps">
+              Apps
+              <img src="/assets/icons/expand-arrow-down.svg" alt="" aria-hidden="true" class="arrow-icon">
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Create Button -->
+      <div class="action-btn">
+        <button class="create-button" aria-label="Create new issue" title="Create new issue" type="button">
+          Create
+        </button>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="header-right">
+      <!-- Search -->
+      <form class="search-bar" role="search">
+        <img src="/assets/icons/Search.svg" alt="" aria-hidden="true" class="search-icon">
+        <input type="search" name="search" placeholder="Search" class="search-input" title="Search">
+      </form>
+
+      <!-- Utility Icons -->
+      <div class="icons-container">
+        <img src="/assets/icons/notification.svg" alt="Notifications" title="View notifications" class="icon">
+        <img src="/assets/icons/help.svg" alt="Help" title="Help and support" class="icon">
+        <img src="/assets/icons/Setting.svg" alt="Settings" title="Settings" class="icon">
+        <img src="/assets/icons/profile.svg" alt="User profile" title="View profile" class="icon profile-icon">
+      </div>
+    </div>
+  </header>
+</body>
+
 </html>

@@ -20,15 +20,7 @@
   cursor: pointer;
 }
 
-.icon{
-  cursor: pointer;
-}
-
-.tools{
-  cursor: pointer;
-}
-
-.project-title{
+.icon, .tools, .project-title{
   cursor: pointer;
 }
 
