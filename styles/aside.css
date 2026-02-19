@@ -1,0 +1,130 @@
+/*  Sidebar Project Info Section  */
+
+.project-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.project-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.project-type {
+    font-size: 12px;
+    color: #555;
+}
+
+/*  Sidebar Tool List Section  */
+
+.tool-section {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.tool-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px; 
+    cursor: pointer;
+}
+
+.tool-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool-item-selected {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #B6D1F7;
+    color: var(--blue-text);
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/*  Board Dropdown Section  */
+
+.board-dropdown {
+    display: flex;
+    flex-direction: column;
+    padding: 0 6px;
+    border-radius: 6px;
+    background-color: #e7f0fd;
+    margin-bottom: 5px;
+}
+
+.board-dropdown ul {
+    list-style: none;
+    padding: 0;   
+    margin: 0;   
+}
+
+.board-info {
+    all: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.board-detail {
+    display: flex;
+    flex-direction: column;
+    color: var(--blue-text);
+}
+
+.arrow-icon-board {
+    width: 14px;
+    height: 14px;
+}
+
+.board-info div {
+    color: var(--blue-text);
+}
+
+/*  Sidebar Footer Section  */
+
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    color: #555;
+    margin-top: 20px;
+    gap: 5px;
+    text-align: center;
+}
+
+.other-tools {
+    border-top: 1px solid #ccc;    
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.beta-badge {
+    background-color: #f0d8f0;
+    color: #520dc2;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
