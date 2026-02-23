@@ -15,7 +15,7 @@
 
 .project-type {
     font-size: 12px;
-    color: #555;
+    color: var(--muted-text-color);
 }
 
 /*  Sidebar Tool List Section  */
@@ -23,7 +23,7 @@
 .tool-section {
     font-size: 12px;
     font-weight: 600;
-    color: #555;
+    color: var(--muted-text-color);
     margin-top: 20px;
     margin-bottom: 10px;
     padding-left: 15px;
@@ -51,7 +51,7 @@
     gap: 10px;
     padding: 8px 15px;
     cursor: pointer;
-    background-color: #B6D1F7;
+    background-color: var(--selected-bg);
     color: var(--blue-text);
     border-radius: 6px;
     font-weight: 600;
@@ -64,7 +64,7 @@
     flex-direction: column;
     padding: 0 6px;
     border-radius: 6px;
-    background-color: #e7f0fd;
+    background-color: var(--dropdown-bg);
     margin-bottom: 5px;
 }
 
@@ -108,22 +108,22 @@
     flex-direction: column;
     justify-content: center;
     font-size: 12px;
-    color: #555;
+    color: var(--muted-text-color);
     margin-top: 20px;
     gap: 5px;
     text-align: center;
 }
 
 .other-tools {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
     margin: 10px 0;
     padding: 10px 0;
 }
 
 .beta-badge {
-    background-color: #f0d8f0;
-    color: #520dc2;
+    background-color: var(--beta-bg);
+    color: var(--beta-text);
     font-size: 10px;
     font-weight: 600;
     padding: 2px 4px;
