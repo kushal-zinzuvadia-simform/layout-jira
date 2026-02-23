@@ -160,7 +160,8 @@
                     <span class="project-name">Lunar Rover</span>
                     <span class="project-type">Board</span>
                   </span>
-                  <img src="/assets/icons/expand-arrow-down.svg" alt="Board dropdown" class="arrow-icon-board" aria-hidden="true">
+                  <img src="/assets/icons/expand-arrow-down.svg" alt="Board dropdown" class="arrow-icon-board"
+                    aria-hidden="true">
                 </button>
 
                 <ul>
@@ -268,7 +269,7 @@
 
         <li>
           <a href="#" class="tool-item">
-            <img src="/assets/icons/shortcut.svg" alt="Shortcut icon" class="tool-icon" aria-hidden="true"> 
+            <img src="/assets/icons/shortcut.svg" alt="Shortcut icon" class="tool-icon" aria-hidden="true">
             Add Shortcut
           </a>
         </li>
@@ -281,7 +282,370 @@
       </div>
     </aside>
 
-    <main></main>
+    <!-- MAIN CONTENT -->
+    <main class="main">
+      <!-- 1. Content Header -->
+      <div class="main-title">
+        <div class="board-title">
+          <p>Board / Beyond Gravity</p>
+          <h2>Board</h3>
+        </div>
+        <div class="board-options">
+          <button>
+            <img src="/assets/icons/flash.svg" alt="flash" class="tool-icon">
+          </button>
+          <button>
+            <img src="/assets/icons/star.png" alt="Favourite" class="tool-icon">
+          </button>
+          <button>
+            <img src="/assets/icons/expand.svg" alt="expand" class="tool-icon">
+          </button>
+          <button>
+            <img src="/assets/icons/three-dots.svg" alt="options" class="tool-icon">
+          </button>
+        </div>
+      </div>
+
+      <!-- 2. Toolbar -->
+      <div class="main-toolbar">
+        <!-- Left side tools -->
+        <div class="main-tools">
+          <form>
+            <input type="search" class="search-task" name="search" aria-label="Search tasks" title="Search">
+            <img src="/assets/icons/Search.svg" alt="Search task" class="search-task-icon" aria-hidden="true">
+          </form>
+
+          <div class="people-avatar">
+            <img src="/assets/icons/person1.svg" alt="user" class="avatar">
+            <img src="/assets/icons/person2.svg" alt="user" class="avatar">
+            <img src="/assets/icons/person3.svg" alt="user" class="avatar">
+            <img src="/assets/icons/person4.svg" alt="user" class="avatar">
+            <div class="more-avatar">+3</div>
+          </div>
+
+          <button class="btn-dropdown">Epic
+            <img src="/assets/icons/expand-arrow-down.svg" alt="Epic dropdown">
+          </button>
+          <button class="btn-dropdown">Type
+            <img src="/assets/icons/expand-arrow-down.svg" alt="Epic dropdown">
+          </button>
+        </div>
+
+        <!-- Right side tools -->
+        <div class="main-tools">
+          <div class="category-title">GROUP BY</div>
+          <button class="btn-dropdown bg-gray">None
+            <img src="/assets/icons/expand-arrow-down.svg" alt="Epic dropdown" class="tool-icon" aria-hidden="true">
+          </button>
+          <button class="btn-dropdown bg-gray">
+            <img src="/assets/icons/insights.svg" alt="insights" class="tool-icon" aria-hidden="true">
+            Insights
+          </button>
+          <button class="btn-dropdown bg-gray">
+            <img src="/assets/icons/setting-toggle.svg" alt="View Settings" class="tool-icon" aria-hidden="true">
+            View Settings
+          </button>
+        </div>
+      </div>
+
+      <!-- 3. Board Grid  -->
+      <div class="main-board">
+        <div class="board-category">
+          <div class="category-title task-id">
+            <p>TO DO</p>
+            <p>6</p>
+          </div>
+
+          <div class="board-tasks">
+            <div class="task-card">
+              <div class="div">Optimize experience for mobile web</div>
+              <div class="task-type billing">BILLING</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/save.svg" alt="" class="task-status-icon green">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">2</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-lines.svg" alt="moderate" class="tool-icon">
+                  <img src="/assets/icons/person1.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Onboard workout options (OWO)</div>
+              <div class="task-type accounts">ACCOUNTS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/tick.svg" alt="" class="task-status-icon blue">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">1</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/one-arrow-up.svg" alt="important" class="tool-icon">
+                  <img src="/assets/icons/person3.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Billing system integration - frontend</div>
+              <div class="task-type forms">FORMS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/red-dot.svg" alt="" class="task-status-icon red">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">3</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/one-arrow-down.svg" alt="less important" class="tool-icon">
+                  <img src="/assets/icons/person4.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Quick payment</div>
+              <div class="task-type feedback">FEEDBACK</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/save.svg" alt="" class="task-status-icon green">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">3</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-lines.svg" alt="moderate" class="tool-icon">
+                  <img src="/assets/icons/person1.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="board-category">
+          <div class="category-title task-id">
+            <p>IN PROGRESS</p>
+            <p>6</p>
+          </div>
+
+          <div class="board-tasks">
+            <div class="task-card flagged">
+              <div class="div">Fast trip search</div>
+              <div class="task-type accounts">ACCOUNTS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/save.svg" alt="" class="task-status-icon green">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <img src="/assets/icons/flag-red.png" alt="flagged" class="tool-icon smaller">
+                  <div class="task-priority">4</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-lines.svg" alt="moderate" class="tool-icon">
+                  <img src="/assets/icons/person4.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Affiliate links integration - frontend</div>
+              <div class="task-type billing">BILLING</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/red-dot.svg" alt="" class="task-status-icon red">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">2</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-arrow-up.svg" alt="Very important" class="tool-icon">
+                  <img src="/assets/icons/person2.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Quick booking for accommodations - website</div>
+              <div class="task-type forms">FORMS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/save.svg" alt="" class="task-status-icon green">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">5</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-arrow-down.svg" alt="low priority" class="tool-icon">
+                  <img src="/assets/icons/person1.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Adapt web app no new payments provider</div>
+              <div class="task-type forms">FORMS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/red-dot.svg" alt="" class="task-status-icon red">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">2</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-arrow-up.svg" alt="very important" class="tool-icon">
+                  <img src="/assets/icons/person3.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Fluid booking on tablets</div>
+              <div class="task-type feedback">FEEDBACK</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/save.svg" alt="" class="task-status-icon green">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">2</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-arrow-up.svg" alt="Very important" class="tool-icon">
+                  <img src="/assets/icons/person4.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="board-category">
+          <div class="category-title task-id">
+            <p>REVIEW</p>
+            <p>6</p>
+          </div>
+
+          <div class="board-tasks">
+            <div class="task-card">
+              <div class="div">Revise and streamline booking flow</div>
+              <div class="task-type accounts">ACCOUNTS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/save.svg" alt="" class="task-status-icon green">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">2</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-arrow-down.svg" alt="low priority" class="tool-icon">
+                  <img src="/assets/icons/person4.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Color of pale yellow on our pages looks incorrect</div>
+              <div class="task-type feedback">FEEDBACK</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/red-dot.svg" alt="" class="task-status-icon red">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">1</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/one-arrow-down.svg" alt="less important" class="tool-icon">
+                  <img src="/assets/icons/person2.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="board-category">
+          <div class="category-title task-id">
+            <p>DONE</p>
+            <p>6</p>
+          </div>
+
+          <div class="board-tasks">
+            <div class="task-card">
+              <div class="div">BugFix BG Web-store app crashing</div>
+              <div class="task-type forms">FORMS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/red-dot.svg" alt="" class="task-status-icon red">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">5</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-arrow-down.svg" alt="Low priority" class="tool-icon">
+                  <img src="/assets/icons/person4.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Software bug fix for BG Web-store app crashing</div>
+              <div class="task-type feedback">FEEDBACK</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/red-dot.svg" alt="" class="task-status-icon red">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">3</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/one-arrow-down.svg" alt="less important" class="tool-icon">
+                  <img src="/assets/icons/person3.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">High outage: Software bug fix BG Web-store app crashing</div>
+              <div class="task-type billing">BILLING</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/red-dot.svg" alt="" class="task-status-icon red">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">4</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-arrow-up.svg" alt="Very important" class="tool-icon">
+                  <img src="/assets/icons/person2.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="div">Web-store purchasing performance issue fix</div>
+              <div class="task-type forms">FORMS</div>
+              <div class="task-info">
+                <div class="info">
+                  <img src="/assets/icons/save.svg" alt="" class="task-status-icon green">
+                  <p class="task-id">NUC-344</p>
+                </div>
+                <div class="info">
+                  <div class="task-priority">3</div>
+                  <img src="/assets/icons/git-pr.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/git-merge.svg" alt="User profile" class="tool-icon">
+                  <img src="/assets/icons/two-lines.svg" alt="moderate" class="tool-icon">
+                  <img src="/assets/icons/person1.svg" alt="User profile" class="tool-icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 
