@@ -17,10 +17,6 @@
     align-items: flex-end;
 }
 
-.board-options button {
-    all: unset;
-}
-
 /* Toolbar Section */
 
 .main-toolbar {
@@ -157,9 +153,10 @@
 /* Dropdown Button */
 
 .btn-dropdown {
-    all: unset;
     display: flex;
-    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
     margin: 0 4px;
 }
 
