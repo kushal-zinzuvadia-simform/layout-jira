@@ -114,6 +114,7 @@
     overflow: hidden;
     border: 1px solid var(--avatar-border);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .people-avatar {
@@ -135,6 +136,7 @@
     font-size: 10px;
     z-index: 0;
     margin-left: -6px;
+    cursor: pointer;
 }
 
 .avatar:not(:first-child) {
